@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <com.marvel999.acr.ArcProgress
+       android:id="@+id/arc_img"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       app:ap_progress_background_color="@color/purple_200"
+       app:ap_progress_color="@color/black"
+       app:ap_progress_maxscale="500"
+       app:ap_background_progressbar_width="50"
+       app:ap_foreground_progressbar_width="50"
+       app:ap_progress_roundedCorner="true"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent" />
+
+   <Button
+       android:id="@+id/progress"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Click me"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

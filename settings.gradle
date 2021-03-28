@@ -1,0 +1,3 @@
+include ':Acr'
+include ':app'
+rootProject.name = "arch_Progress_graph"
