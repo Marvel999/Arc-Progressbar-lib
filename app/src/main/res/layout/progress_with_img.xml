@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+
+   <de.hdodenhof.circleimageview.CircleImageView
+       android:id="@+id/profile_image"
+       android:layout_width="245dp"
+       android:layout_height="245dp"
+       android:src="@drawable/hrithik_roshan"
+       app:civ_border_color="#FF000000"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="@+id/arc_img" />
+
+   <com.marvel999.acr.ArcProgress
+             android:id="@+id/arc_img"
+             android:layout_width="250dp"
+             android:layout_height="250dp"
+             app:ap_background_progressbar_width="15"
+             app:ap_foreground_progressbar_width="15"
+             app:ap_progress="150"
+            app:ap_progress_maxscale="100"
+              app:ap_progress_roundedCorner="true"
+             app:ap_progress_background_color="@color/black2"
+             app:ap_progress_color="@color/white"
+             app:layout_constraintBottom_toBottomOf="parent"
+             app:layout_constraintEnd_toEndOf="parent"
+             app:layout_constraintStart_toStartOf="parent"
+             app:layout_constraintTop_toTopOf="parent" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

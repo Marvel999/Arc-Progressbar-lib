@@ -122,35 +122,35 @@ class ArcProgress(context: Context, attributes: AttributeSet) : View(context, at
     }
 
 
-    /* This is touchEvent callback is active when user is need this for getting the touch event in his app so
-    * he need to make true to touch event
-      * */
-    override fun onTouchEvent(event: MotionEvent): Boolean {
-
-            when (event.action) {
-                MotionEvent.ACTION_DOWN -> {
-//                    if (onProgressbarChangeListener != null) onProgressbarChangeListener.onStartTracking(
-//                        this
-//                    )
-                    checkForCorrect(event.x, event.y)
-                    Log.e("Action:  ","Down: "+event.y+"   "+event.x)
-                }
-                MotionEvent.ACTION_MOVE -> {
-//                    if (moveCorrect) justMove(event.x, event.y)
-//                    upgradeProgress(progress, true)
-                    Log.e("Action:  ","Move")
-                }
-                MotionEvent.ACTION_UP -> {
-//                    if (onProgressbarChangeListener != null) onProgressbarChangeListener.onStopTracking(
-//                        this
-//                    )
-//                    moveCorrect = false
-                    Log.e("Action:  ","UP")
-                }
-            }
-
-        return false
-    }
+//    /* This is touchEvent callback is active when user is need this for getting the touch event in his app so
+//    * he need to make true to touch event
+//      * */
+//    override fun onTouchEvent(event: MotionEvent): Boolean {
+//
+//            when (event.action) {
+//                MotionEvent.ACTION_DOWN -> {
+////                    if (onProgressbarChangeListener != null) onProgressbarChangeListener.onStartTracking(
+////                        this
+////                    )
+//                    checkForCorrect(event.x, event.y)
+//                    Log.e("Action:  ","Down: "+event.y+"   "+event.x)
+//                }
+//                MotionEvent.ACTION_MOVE -> {
+////                    if (moveCorrect) justMove(event.x, event.y)
+////                    upgradeProgress(progress, true)
+//                    Log.e("Action:  ","Move")
+//                }
+//                MotionEvent.ACTION_UP -> {
+////                    if (onProgressbarChangeListener != null) onProgressbarChangeListener.onStopTracking(
+////                        this
+////                    )
+////                    moveCorrect = false
+//                    Log.e("Action:  ","UP")
+//                }
+//            }
+//
+//        return false
+//    }
 
 
 //    fun setOnProgressbarChangeListener(onProgressbarChangeListener: OnProgressbarChangeListener) {
@@ -168,25 +168,25 @@ class ArcProgress(context: Context, attributes: AttributeSet) : View(context, at
 
 
     /* This method is also used by touchevent so it's just find that user click on circle or not */
-    private fun checkForCorrect(x: Float, y: Float) {
-        canterpoint= (Math.min(width,height)/2f).toInt()
-        val distance =
-            Math.sqrt(
-                Math.pow(
-                    (x - canterpoint).toDouble(),
-                    2.0
-                ) + Math.pow((y - canterpoint).toDouble(), 2.0)
-            )
-                .toFloat()
-
-        if (width/2==distance)
-        {
-          Log.e("formula scucess full","pint"+distance+"   "+canterpoint)
-        }
-
-        Log.e("formula scucess full","pint"+distance+"   "+canterpoint)
-
-    }
+//    private fun checkForCorrect(x: Float, y: Float) {
+//        canterpoint= (Math.min(width,height)/2f).toInt()
+//        val distance =
+//            Math.sqrt(
+//                Math.pow(
+//                    (x - canterpoint).toDouble(),
+//                    2.0
+//                ) + Math.pow((y - canterpoint).toDouble(), 2.0)
+//            )
+//                .toFloat()
+//
+//        if (width/2==distance)
+//        {
+//          Log.e("formula scucess full","pint"+distance+"   "+canterpoint)
+//        }
+//
+//        Log.e("formula scucess full","pint"+distance+"   "+canterpoint)
+//
+//    }
 
 
 
