@@ -27,7 +27,7 @@ Add the dependency
 
 dependencies {
     ...
-    implementation 'com.github.Marvel999:Arc-Progressbar-lib:Tag'
+    implementation 'com.github.Marvel999:Arc-Progressbar-lib:1.0.0'
 }
 ```
 
