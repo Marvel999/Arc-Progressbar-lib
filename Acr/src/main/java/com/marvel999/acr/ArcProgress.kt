@@ -14,7 +14,6 @@ import android.view.MotionEvent
 import android.view.View
 import android.view.animation.DecelerateInterpolator
 import androidx.annotation.ColorInt
-import com.jackandphantom.circularprogressbar.CircleProgressbar
 import kotlin.math.roundToLong
 
 class ArcProgress(context: Context, attributes: AttributeSet) : View(context, attributes) {
@@ -31,7 +30,7 @@ class ArcProgress(context: Context, attributes: AttributeSet) : View(context, at
     private var startAngle = 180f
     private var swipeAngle = 180f
     private var isClockwise = DEFAULT_CLOCKWISE
-    private var onProgressbarChangeListener: OnProgressbarChangeListener? = null
+//    private var onProgressbarChangeListener: OnProgressbarChangeListener? = null
 
     private var isRoundCorner = DEFAULT_isRoundCorner
 
@@ -154,18 +153,18 @@ class ArcProgress(context: Context, attributes: AttributeSet) : View(context, at
     }
 
 
-    fun setOnProgressbarChangeListener(onProgressbarChangeListener: OnProgressbarChangeListener) {
-        this.onProgressbarChangeListener = onProgressbarChangeListener
-    }
+//    fun setOnProgressbarChangeListener(onProgressbarChangeListener: OnProgressbarChangeListener) {
+//        this.onProgressbarChangeListener = onProgressbarChangeListener
+//    }
 
     /* This is interface for informing about the progress */
 
     /* This is interface for informing about the progress */
-    interface OnProgressbarChangeListener {
-        fun onProgressChanged(circleSeekbar: CircleProgressbar?, progress: Float, fromUser: Boolean)
-        fun onStartTracking(circleSeekbar: CircleProgressbar?)
-        fun onStopTracking(circleSeekbar: CircleProgressbar?)
-    }
+//    interface OnProgressbarChangeListener {
+//        fun onProgressChanged(circleSeekbar: CircleProgressbar?, progress: Float, fromUser: Boolean)
+//        fun onStartTracking(circleSeekbar: CircleProgressbar?)
+//        fun onStopTracking(circleSeekbar: CircleProgressbar?)
+//    }
 
 
     /* This method is also used by touchevent so it's just find that user click on circle or not */
