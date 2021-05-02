@@ -1,7 +1,7 @@
 <h1 align="center">  Arc Progressbar In Android</h1>
 
 <p align="center">
-Create carousel effect in recyclerview with the CarouselRecyclerview in a simple way.
+ArcProgressbar project let create Arc progressbar in android in simplest way.
 </p>
 </br>
 <p align="center">
@@ -15,9 +15,7 @@ Create carousel effect in recyclerview with the CarouselRecyclerview in a simple
 </br>
 
 ![Arcprogressbar](https://user-images.githubusercontent.com/43094705/116447605-cd10c380-a875-11eb-8d70-4743cd0dbc0c.png)
-
-ArcProgressbar project let create Arc progressbar in android in simplest way.
-
+</br>
 
 USAGE
 -----
