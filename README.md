@@ -6,6 +6,7 @@ ArcProgressbar project let create Arc progressbar in android in simplest way.
 </br>
 <p align="center">
   <a href="https://github.com/sparrow007/CarouselRecyclerview/actions"><img alt="Build Status"src="https://github.com/sparrow007/CarouselRecyclerview/workflows/Android%20CI/badge.svg"/></a> 
+	  <a href="https://marvel999.medium.com/how-to-create-arcprogressbar-in-android-kotlin-ce4eb09d0d93"><img alt="Medium" src="https://skydoves.github.io/badges/Story-Medium.svg"/></a>
   <a href="https://opensource.org/licenses/Apache-2.0"><img alt="License" src="https://img.shields.io/badge/License-Apache%202.0-blue.svg"/></a>
   <a href="http://developer.android.com/index.html"><img alt="License" src="https://img.shields.io/badge/platform-android-green.svg"/></a>
     <a href="https://android-arsenal.com/api?level=14"><img alt="License" src="https://img.shields.io/badge/API-14%2B-brightgreen.svg"/></a>
